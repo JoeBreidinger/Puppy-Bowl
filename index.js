@@ -147,7 +147,7 @@ async function addPlayer(player) {
 /** Deletes the player with given ID via the API */
 async function deletePlayer(id) {
   try {
-    await fetch(API + `${id}`, {
+    await fetch(API + "/" + id, {
       method: "DELETE",
     });
     selectedPlayer = undefined;
