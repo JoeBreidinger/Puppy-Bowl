@@ -162,7 +162,7 @@ async function deletePlayer(id) {
 function render() {
   const $app = document.querySelector("#app");
   $app.innerHTML = `
-    <h1>PUPPPY BOWL</h1>
+    <h1>PUPPY BOWL</h1>
     <main>
       <section>
         <h2>Puppy Contestants</h2>
